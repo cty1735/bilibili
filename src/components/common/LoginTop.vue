@@ -21,7 +21,7 @@ props:['midtext','righttext']
 .login-top{
 height: 12.5vw;
 font-size: 16px;
-background-color: lightblue;
+background-color: #FF9DB5;
 display: flex;
 justify-content: center;
 align-items: center;

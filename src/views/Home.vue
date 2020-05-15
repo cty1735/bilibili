@@ -1,14 +1,14 @@
 <template>
   <div class="home">
+    <nav-top></nav-top>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-
-
+import NavTop from "@/components/common/NavTop.vue";
 export default {
-  name: 'Home'
-
+  components:{
+    NavTop
+  }
 }
 </script>
