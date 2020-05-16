@@ -26,8 +26,6 @@ export default {
   },
  async mounted(){
       const res=await this.$http.get('/user/' + localStorage.getItem('id'))
-      console.log(res);
-      
       this.imgUrl=res.data[0].user_img;
       
     }
